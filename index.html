@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Working Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+</head>
+<body>
+    
+        <div id="calculator" class="calc-body">
+            <div id="displaybox" class="display-area"></div>
+            <div class="small-button"><button id="number-C" class="number"  onclick="clearScreen()">C</button></div>
+            <div class="small-button"><button id="number-Del" class="number" onclick="delChar()">Del</button></div>
+            <div class="small-button"><button id="number-Xtr" class="number" onclick="alertUpd()">Xtr</button></div>
+            <div class="small-button"><button id="number" value="1" class="number" onclick="updScreen(this)">1</button></div>
+            <div class="small-button"><button id="number" value="2" class="number" onclick="updScreen(this)">2</button></div>
+            <div class="small-button"><button id="number" value="3" class="number" onclick="updScreen(this)">3</button></div>
+            <div class="small-button"><button id="number" value="4" class="number" onclick="updScreen(this)">4</button></div>
+            <div class="small-button"><button id="number" value="5" class="number" onclick="updScreen(this)">5</button></div>
+            <div class="small-button"><button id="number" value="6" class="number" onclick="updScreen(this)">6</button></div>
+            <div class="small-button"><button id="number" value="7" class="number" onclick="updScreen(this)">7</button></div>
+            <div class="small-button"><button id="number" value="8" class="number" onclick="updScreen(this)">8</button></div>
+            <div class="small-button"><button id="number" value="9" class="number" onclick="updScreen(this)">9</button></div>
+            <div class="small-button"><button id="number-plus" value=" + " class="number" onclick="updScreen(this)">+</button></div>
+            <div class="small-button"><button id="number-minus" value=" - " class="number" onclick="updScreen(this)">-</button></div>
+            <div class="small-button"><button id="number-dot" value="." class="number" onclick="updScreen(this)">.</button></div>
+            <div class="small-button"><button id="number-ast" value=" x" class="number" onclick="updScreen(this)">*</button></div>
+            <div class="small-button"><button id="number-div" value=" /" class="number" onclick="updScreen(this)">/</button></div>
+            <div class="small-button"><button id="number-eqq" class="number" onclick="calculate()">=</button></div>
+        </div>
+    
+</body>
+</html>
